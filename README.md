@@ -2,14 +2,6 @@
 
 This guide will help you install Speedy QC on your system.
 
-## Prerequisites
-
-Before you begin, ensure you have the following:
-
-- A Mac computer running macOS.
-- An internet connection.
-- Basic knowledge of using the Terminal.
-
 ## Steps to Install Speedy QC
 
 ### 1. Open Terminal
@@ -35,15 +27,15 @@ After the installation is complete, you need to add Homebrew to your PATH. This 
 For Zsh (macOS Catalina and later):
 
 ```
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
-    source ~/.zshrc
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 For Bash:
 
 ```
-    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
-    source ~/.bash_profile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
+source ~/.bash_profile
 ```
 
 ### 4. Verify the Installation
@@ -51,17 +43,17 @@ For Bash:
 To make sure Homebrew is installed correctly, run:
 
 ```
-    brew --version
+brew --version
 ```
 
-This should display the version of Homebrew that was installed.
+This should display the installed version of Homebrew.
 
 ### 5. Install libffi
 
 Once Homebrew is installed, use it to install `libffi` by running:
 
 ```
-    brew install libffi
+brew install libffi
 ```
 
 ### 6. Install Python 3.10
@@ -69,7 +61,7 @@ Once Homebrew is installed, use it to install `libffi` by running:
 Next, install Python 3.10 using Homebrew:
 
 ```
-    brew install python@3.10
+brew install python@3.10
 ```
 
 ### 7. Install Speedy QC
@@ -77,7 +69,7 @@ Next, install Python 3.10 using Homebrew:
 Finally, install Speedy QC by running the following command:
 
 ```
-    python3.10 -m pip install git+https://github.com/PanagiotisFytas/speedy_qc
+python3.10 -m pip install git+https://github.com/PanagiotisFytas/speedy_qc
 ```
 
 Congratulations! You have successfully installed Speedy QC on your system.
