@@ -22,7 +22,7 @@ Homebrew is a package manager for macOS. To install Homebrew, follow these steps
 
 1. In the Terminal window, paste the following command and press Enter:
 
-    ```sh
+    ```
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
@@ -34,14 +34,14 @@ After the installation is complete, you need to add Homebrew to your PATH. This 
 
 For Zsh (macOS Catalina and later):
 
-    ```sh
+    ```
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
     source ~/.zshrc
     ```
 
 For Bash:
 
-    ```sh
+    ```
     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
     source ~/.bash_profile
     ```
@@ -50,7 +50,7 @@ For Bash:
 
 To make sure Homebrew is installed correctly, run:
 
-    ```sh
+    ```
     brew --version
     ```
 
@@ -60,7 +60,7 @@ This should display the version of Homebrew that was installed.
 
 Once Homebrew is installed, use it to install `libffi` by running:
 
-    ```sh
+    ```
     brew install libffi
     ```
 
@@ -68,7 +68,7 @@ Once Homebrew is installed, use it to install `libffi` by running:
 
 Next, install Python 3.10 using Homebrew:
 
-    ```sh
+    ```
     brew install python@3.10
     ```
 
@@ -76,7 +76,7 @@ Next, install Python 3.10 using Homebrew:
 
 Finally, install Speedy QC by running the following command:
 
-    ```sh
+    ```
     python3.10 -m pip install git+https://github.com/PanagiotisFytas/speedy_qc
     ```
 
